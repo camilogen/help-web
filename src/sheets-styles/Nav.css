@@ -1,0 +1,42 @@
+.main-container {
+  height: 80px;
+  margin: 30px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.help-container {
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.submit-container {
+  margin: 5%;
+}
+
+/*Styles Buttons*/
+
+.help-button {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  border: none;
+}
+
+.help-button:hover {
+  cursor: pointer;
+}
+
+.logo-principal {
+  height: 50px;
+}
+
