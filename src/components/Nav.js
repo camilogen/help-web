@@ -6,18 +6,16 @@ import { Link } from "react-router-dom"
 function Nav() {
   return (
     <div className="main-container">
-      <img src={MainLogo} className="logo-principal" alt="imagen" />
       <div className="help-container">
-        <Link to="/" className="help-button">
-          Login
-        </Link>
+        <img src={MainLogo} className="logo-principal" alt="imagen" />
         <Link to="/about" className="help-button">
-          About
+          Help Center
         </Link>
       </div>
       <div className="submit-container">
-        <button className="" />
-        <button className="" />
+          <Link to="/login" className="login-button">
+          Login
+          </Link>
       </div>
     </div>
   )
