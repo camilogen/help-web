@@ -1,14 +1,15 @@
 import React from "react";
+import '../sheets-styles/InfoAbout.css';
 
 function InfoAbout (props) {
     return (
-      <div className="container-img">
+      <div className="container-infoabout">
         <div>
           <img className="help-img" src={props.img} alt="img" />
         </div>
         <div>
-          <p>{props.titulo}</p>
-          <p>{props.texto}</p>
+          <p className="title-">{props.titulo}</p>
+          <p className="text-">{props.texto}</p>
         </div>
       </div>
     )

@@ -1,0 +1,27 @@
+.container-infoabout {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #A4B2D8;
+  }
+
+.help-img {
+height: 150px;
+background-color: aqua;
+}
+
+.title- {
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  margin: 2px;
+  padding-bottom: 6px;
+}
+
+.text- {
+  font-size: 1.3em;
+  margin: 3px;
+}
